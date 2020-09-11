@@ -1,11 +1,11 @@
 # Site settings
 author: Ariel Ibarra
-title: 
+title: Coconut Creations
 header-img: img/home-bg.png
 email: arielibarra39@gmail.com
 copyright_name: Ariel Ibarra
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A student coding blog
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Ariel-I
