@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Using each VS map (with Ruby)"
-date:       2020-10-12 23:45:34 +0000
+date:       2020-10-12 19:45:35 -0400
 permalink:  using_each_vs_map_with_ruby
 ---
 
-**
-EACH VS MAP ** 
+
+**EACH VS MAP ** 
 
 Understanding the difference between .each VS .map and when to use them. 
 
@@ -23,7 +23,6 @@ For example;
 array = [1, 2, 3]
 
 array.each do | i |
-
 puts i*2
 
 array.each { | i | i*2 }      (the block can also be executed this way as one line with curly brackets)
