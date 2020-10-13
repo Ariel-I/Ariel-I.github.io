@@ -23,7 +23,7 @@ For example;
 ```
 array =  [1, 2, 3]
 
-array.each { | i | i * 2 }      (the block can also be executed this way as one line with curly brackets)
+array.each { | i | i * 2 }      
 
 This will return [1, 2, 3]```
 
