@@ -20,29 +20,23 @@ For example;
 
 **Using each:**
 
+```
 array =  [1, 2, 3]
 
-array.each do | i |
-puts i *2
+array.each { | i | i * 2 }      (the block can also be executed this way as one line with curly brackets)
 
-array.each { | i | i*2 }      (the block can also be executed this way as one line with curly brackets)
+This will return [1, 2, 3]```
 
-This will return [1, 2, 3]
-
-The each iterator will return the **same**, **original**, array.
+The each iterator will return the same, **original**, array.
 
 **Using map:**
 
+```
 array = [1, 2, 3]
 
 array.map { | i | i * 2 }
 
-or 
-
-array.map do | i | 
-puts i*2
-
-This will return [2, 4, 6] a **changed** array!
+This will return [2, 4, 6] a changed array!```
 
 The map iterator has a **different** return value than the original array.  
 
