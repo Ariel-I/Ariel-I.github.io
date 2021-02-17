@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sorting in React"
-date:       2021-02-17 22:41:31 +0000
+date:       2021-02-17 17:41:32 -0500
 permalink:  sorting_in_react
 ---
 
@@ -10,11 +10,15 @@ Sorting in React is important to understand as it is used often and creates a be
 
 The sort function I created will list the nonprofits in descending alphabetical order and looks like this;
 
-```let sortDescending = this.props.nonprofits.sort((a, b) => b.name.localeCompare(a.name))```
+```
+let sortDescending = this.props.nonprofits.sort((a, b) => b.name.localeCompare(a.name))
+```
 
 Sorting without using .localCompare would sort using integer values. For example;
 
-```let sortDescending = this.props.nonprofits.sort((a,b) => b.name > a.name ? 1 : -1)```
+```
+let sortDescending = this.props.nonprofits.sort((a,b) => b.name > a.name ? 1 : -1)
+```
 
 These two methods do the same thing but one is using string values to compare and the other is using integer values. 
 
